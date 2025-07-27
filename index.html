@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agencia de Viajes</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+<header> 
+  <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="imagen/vi.png" alt="" width="30" height="24"><b>Fambú</b></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Soporte</a></li>
+            <li><a class="dropdown-item" href="#">Ciudades</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Contactenos</a></li>
+          </ul>
+        </li>
+   
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+</header>
+ 
+  
+<div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active c-item">
+      <img src="imagen/vacacion1.jpg" class="d-block w-100 c-img" alt="...">
+       <div class="carousel-caption top-0 mt-4 ">
+        <p class="mt-5 fs-3 text-uppercase">Más que destinos, creamos experiencias</p>
+        <h1 class="display-1 fw-bolder text-capitalize">Fambú</h1>
+        <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Elige tu destino</button>
+      </div>
+    </div>
+    <div class="carousel-item c-item">
+      <img src="imagen/vacacion2.jpg" class="d-block w-100 c-img" alt="...">
+      <div class="carousel-caption top-0 mt-4 ">
+        <p class="mt-5 fs-3 text-uppercase">Momentos que unen, destinos que inspiran</p>
+        <h1 class="display-1 fw-bolder text-capitalize">Fambú</h1>
+        <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Elige tu destino</button>
+      </div>
+    </div>
+    <div class="carousel-item c-item">
+      <img src="imagen/vacacion3.jpg" class="d-block w-100 c-img" alt="...">
+      <div class="carousel-caption top-0 mt-4 ">
+        <p class="mt-5 fs-3 text-uppercase">Más que viajes, momentos en familia.</p>
+        <h1 class="display-1 fw-bolder text-capitalize">Fambú</h1>
+        <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Elige tu destino</button>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  
+
+
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Paquetes turísticos</h2>
+    <div class="row">
+      
+      <div class="col-lg">
+           <div class="card" >
+  <img src="imagen/brazil.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Brazil</h5>
+    <p class="card-text">Disfruta de la cultura, música y playas del corazón de Brasil. Un paquete diseñado para vivir la alegría carioca con tours, gastronomía y tiempo para relajarte. Ideal para familias, parejas o grupos de amigos.</p>
+    <a href="#" class="btn btn-primary">Go: $899 por persona</a>
+  </div>
+</div>
+      </div>
+           <div class="col-lg">
+              <div class="card">
+  <img src="imagen/canada.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Canadá</h5>
+    <p class="card-text">Vive una experiencia inolvidable recorriendo lo mejor de Canadá. Desde la impresionante belleza natural de las Cataratas del Niágara hasta la moderna vibra de Toronto y Vancouver, este paquete te conecta con la diversidad cultural y paisajística del país. </p>
+    <a href="#" class="btn btn-primary">Go: $1099 por persona</a>
+  </div>
+</div>
+      </div>
+           <div class="col-lg">
+              <div class="card" >
+  <img src="imagen/paris.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">París</h5>
+    <p class="card-text">Sumérgete en la magia de París, la ciudad del amor y la luz. Descubre sus monumentos emblemáticos, su arte incomparable y su exquisita gastronomía. Disfruta cada rincón lleno de historia y encanto mientras creas recuerdos .</p>
+    <a href="#" class="btn btn-primary">Go: $1450 por persona</a>
+  </div>
+</div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Comentarios de clientes</h2>
+    <div class="list-group">
+      <div class="list-group-item">
+        <h5 class="mb-1">Nombre del Cliente</h5>
+        <p class="mb-1">Comentario del cliente sobre su experiencia.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Contacto</h2>
+    <form>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+      </div>
+      <div class="mb-3">
+        <label for="correo" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="correo" placeholder="ejemplo@email.com">
+      </div>
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </section>
+
+
+<div class="container text-center my-5">
+  <h2 class="text-center mb-4">Formas de pago</h2>
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-4">
+        <canvas class="canvas-circle" id="circle1" width="150" height="150"></canvas>
+      </div>
+      <div class="col-12 col-md-4">
+        <canvas class="canvas-circle" id="circle2" width="150" height="150"></canvas>
+      </div>
+      <div class="col-12 col-md-4">
+        <canvas class="canvas-circle" id="circle3" width="150" height="150"></canvas>
+      </div>
+    </div>
+  </div>
+  <script>
+    function drawCircularImage(canvasId, imgSrc) {
+      const canvas = document.getElementById(canvasId);
+      const ctx = canvas.getContext('2d');
+      const img = new Image();
+      img.src = imgSrc;
+
+      img.onload = () => {
+        ctx.save();
+        ctx.beginPath();
+        ctx.arc(canvas.width / 2, canvas.height / 2, canvas.width / 2, 0, Math.PI * 2);
+        ctx.closePath();
+        ctx.clip();
+        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+        ctx.restore();
+      };
+    }
+
+    drawCircularImage("circle1", "imagen/mastercard.jpg");
+    drawCircularImage("circle2", "imagen/paypal.png");
+    drawCircularImage("circle3", "imagen/visa.png");
+  </script>
+
+
+
+
+  <footer class="bg-dark py-5 mt-5">
+    <div class="container text-light text-center">
+      <p class="display-5 mb-3">Fambú</p>
+      <small class="text-white-50">&copy; 2025 Fambú. Todos los derechos reservados.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
